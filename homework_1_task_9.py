@@ -2,4 +2,4 @@
 
 num1, num2, num3 = [int(i) for i in input('Введите 3 числа для нахождения средней: ').split()]
 
-print(f'Среднее число данных чисел {int((num1+num2+num3)/3)}')
+print(f'Среднее число данных чисел {round(float((num1+num2+num3)/3), 2)}')
